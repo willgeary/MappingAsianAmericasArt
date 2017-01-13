@@ -11,7 +11,7 @@ To create this map, we will be using data from [Natural Earth](http://www.natura
 
 This download may take up to 30 minutes, but it is worth it!
 
-### Add the Shapefiles
+### Add the Layers
 First, you need to open QGIS and add the layers that you want to map.
 * To add *shapefiles* click on the `Add Vector Layer` button. Other types of data will be added using the other buttons, but in this tutorial we will only be using vector data (shapefiles). Other types of data include *rasters*, *csv* (comma separated values), and *postGIS* layers.
 
@@ -37,4 +37,10 @@ You should now have something like this (don't worry if your colors look differe
 
 ![World Basemap](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_world_basemap.png)
  
+### Style the Layers
+Clearly, our map needs some styling.
+ 
+First, let's give the layers names that are more intuitive. Rename a layers by right clicking on it in the Layers Panel and selecting 'Rename', like this:
+![Rename Layer](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_rename.png)
+
 
