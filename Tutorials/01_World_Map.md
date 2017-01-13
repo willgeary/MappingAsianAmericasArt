@@ -40,8 +40,57 @@ You should now have something like this (don't worry if your colors look differe
 ### Style the Layers
 Clearly, our map needs some styling.
  
-First, let's give the layers names that are more intuitive. Rename a layers by right clicking on it in the Layers Panel and selecting 'Rename', like this:
+First, let's give the layers names that are more intuitive. Rename a laye by right clicking on it in the Layers Panel and selecting 'Rename', like this:
 
 ![Rename Layer](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_rename.png)
+
+I chose to give my layers the following names: Rivers, States, Countries, Lakes, Ocean, Land.
+
+Now, let's customize the color scheme. Double-click on the Rivers layer and the `Layer Properties` window will pop up. Select the `Style` tab. Here, you can change the fill (color), stroke weight and fill (outline) and the size of the icon (if using points or icons).
+
+* Make the following style changes:
+ * Rivers
+  * Color: #1f78b4ff
+  * Width: 0.06
+ * States
+  * Fill Color: Transparent
+  * Border Color: #ae6b34ff
+  * Border Width: 0.06
+ * Countries
+  * Fill Color: Transparent
+  * Border Color: #000000ff
+  * Border Width: 0.10
+ * Lakes
+  * Fill Color: #a5bfddff
+  * Border Color: #728584ff
+  * Border Width: 0.26
+ * Ocean
+  * Fill Color: #a5bfddff
+  * Border Color: #728584ff
+  * Border Width: 0.26
+ * Land
+  * Fill Color: #f1f4c7ff
+  * Border Color: #afb38aff
+  * Border Width: 0.26
+  
+Now, you should have something like this:
+
+![World](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_world.png)
+
+Zoom in to South America by clicking the zoom-in magnifying glass (+) on the upper toolbar and dragging a rectangle around South America, like this:
+
+![Zoom](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_zoom.png)
+
+Note that you can zoom out to show the entire world map by right clicking on the Land layer (or any of them, for that matter) and selecting 'Zoom to Layer', like this:
+
+![Zoom to Layer](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_zoomlayer.png)
+
+
+
+
+
+
+
+ 
 
 
