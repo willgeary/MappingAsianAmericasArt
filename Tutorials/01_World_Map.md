@@ -35,6 +35,6 @@ Next, open the *Cultural Vectors* folder and add the following shapefiles to you
 
 You should now have something like this (don't worry if your colors look different - QGIS assigns random colors when you add layers):
 
-![World Basemap](
+![World Basemap](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_world_basemap.png)
  
 
