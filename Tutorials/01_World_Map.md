@@ -41,6 +41,7 @@ You should now have something like this (don't worry if your colors look differe
 Clearly, our map needs some styling.
  
 First, let's give the layers names that are more intuitive. Rename a layers by right clicking on it in the Layers Panel and selecting 'Rename', like this:
+
 ![Rename Layer](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_rename.png)
 
 
