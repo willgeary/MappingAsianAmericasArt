@@ -48,27 +48,27 @@ I chose to give my layers the following names: Rivers, States, Countries, Lakes,
 
 Now, let's customize the color scheme. Double-click on the Rivers layer and the `Layer Properties` window will pop up. Select the `Style` tab. Here, you can change the fill (color), stroke weight and fill (outline) and the size of the icon (if using points or icons).
 
-* Make the following style changes:
- * Rivers
+Make the following style changes:
+* Rivers
   * Color: #1f78b4ff
   * Width: 0.06
- * States
+* States
   * Fill Color: Transparent
   * Border Color: #ae6b34ff
   * Border Width: 0.06
- * Countries
+* Countries
   * Fill Color: Transparent
   * Border Color: #000000ff
   * Border Width: 0.10
- * Lakes
+* Lakes
   * Fill Color: #a5bfddff
   * Border Color: #728584ff
   * Border Width: 0.26
- * Ocean
+* Ocean
   * Fill Color: #a5bfddff
   * Border Color: #728584ff
   * Border Width: 0.26
- * Land
+* Land
   * Fill Color: #f1f4c7ff
   * Border Color: #afb38aff
   * Border Width: 0.26
@@ -84,6 +84,9 @@ Zoom in to South America by clicking the zoom-in magnifying glass (+) on the upp
 Note that you can zoom out to show the entire world map by right clicking on the Land layer (or any of them, for that matter) and selecting 'Zoom to Layer', like this:
 
 ![Zoom to Layer](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_zoomlayer.png)
+
+### Add Points and Labels for Cities in Brazil
+
 
 
 
