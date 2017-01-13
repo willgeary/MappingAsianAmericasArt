@@ -9,7 +9,7 @@ Office Hours: Thurs 1-2pm (previous email required)
 
 ## GIS Tutorial Schedule
 
-### Week 1: Creating a World Map
+### Week 1: Creating a Basic World Map
 January 23
 
 
