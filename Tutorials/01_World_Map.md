@@ -15,7 +15,7 @@ This download may take up to 30 minutes, but it is worth it!
 First, you need to open QGIS and add the layers that you want to map.
 * To add *shapefiles* click on the `Add Vector Layer` button. Other types of data will be added using the other buttons, but in this tutorial we will only be using vector data (shapefiles). Other types of data include *rasters*, *csv* (comma separated values), and *postGIS* layers.
 
-![Add Layer](https://github.com/juanfrans-courses/mapping_arch_hum/blob/master/Spring_2016/Tutorials/Images/01_Creating_a_Basic_Map/01_Adding_Layers.png)
+![Add Layer](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_Adding_Layers.png)
 * Make sure you select the files with the extension `.shp`. Remember that a *shapefile* is actually made up of 5 or 6 individual files with different extensions. Normally, these individual files are the following:
   * .shp - The main file that stores the feature geometry (required).
   * .shx - The index file that stores the index of the feature geometry (required).
