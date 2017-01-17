@@ -156,9 +156,44 @@ Check 'Draw text buffer':
 
 ![Text Buffer](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_buffer.png)
 
-In the 'Placement' menu, select Cartographic and give it a distance of 2.0 units, like this:
+In the 'Placement' menu, select 'Cartographic' and give it a distance of 2.0 units, like this:
 
 ![Placement](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_placement.png)
+
+Now your map should look like this:
+
+![Brazil](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_brazil_final.png)
+
+### Print Map to PDF
+
+Now that we have our map of major Brazilian cities, let's print it to a PDF. To do this in QGIS you must use a tool called the 'Print Composer'. Open the Print Composer by clicking on the Project menu and 'New Print Composer', like this:
+
+![New Print Composer](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_new_print.png)
+
+Give your composer a title if you want, or just click OK. This will bring up the print composer window. This is where we will put the finishing touches on our map and print it to a pdf.
+
+First, let's add the map itself. Click the 'Add New Map' button on the sidebar, like this:
+
+![Add Map](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_add_map.png)
+
+Drag your cursor to create a rectangle on the page. This tells the Print Composer where you want the map to go. 
+
+You can add a title, legend and a scalebar using the buttons on the left sidebar. I'll leave this as an exercise to you!
+
+![Final Map](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_final_map.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
