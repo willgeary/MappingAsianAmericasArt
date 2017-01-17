@@ -85,7 +85,108 @@ Note that you can zoom out to show the entire world map by right clicking on the
 
 ![Zoom to Layer](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_zoomlayer.png)
 
-### Add Points and Labels for Cities in Brazil
+### Add Points for Major Cities in Brazil
+
+Let's add labels for the major cities in Brazil. Add the `ne_10m_populated_places_simple.shp` layer to your map. You should see something like this:
+
+![Populated Places](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_populated_places.png)
+
+As we only want to label the major cities in Brazil, let's limit this dataset to only include cities that are both:
+
+1) In Brazil
+2) Population greater than or equal to one million
+
+To do this, right click on the `ne_10m_populated_places_simple.shp` layer and select 'Open Attribute Table', like this:
+
+![Attrib Table](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_attrib_table.png)
+
+Notice that the 'sov0name' column contains country name and the 'pop_max' column contains population. We will use these two columns to select Brazilian cities with population >= one million.
+
+First, let's select all cities that are in Brazil. Click the 'Select features using an expression' button in the Attribute Table. This will bring up the following window:
+
+![Select Table](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_select_table.png)
+
+Click on the 'Fields and Values' drop-down menu and double-click 'sov0name'. This will add 'sov0name' to the expression space on the left-hand side of the window. After "sov0name" type the following: = 'Brazil'. Your expression should look like this:
+
+![Select Brazil](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_select_brazil.png)
+
+Now click 'Select'. This will highlight all of the rows in the attribute table where sov0name = Brazil. Close out of the attribute table. Brazilian cities should be highlighted in yellow, like this:
+
+![Brazil Yellow](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_brazil_yellow.png)
+
+Right click the `ne_10m_populated_places_simple` layer and select 'Save As...'. This will bring up the Save As window. Give the new layer a name, such as Brazil Cities, and be sure to check the 'Save only selected features' box (otherwise non-Brazilian cities will be included in the new layer). Your window should look like this:
+
+![Save As](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_save_as.png)
+
+Click OK, and this new layer will be added to your map. Uncheck the box next to `ne_10m_populated_places_simple` to view the Brazilian cities, like this:
+
+![Brazil Cities](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_brazil_cities.png)
+
+Now, let's limit these cities to only include those with population >= one million. Open the attribute table for the Brazil Cities layer and click the Select by expression button again. Under Fields and Values, double click pop_max. In the left-hand window type: >= 1000000. Your window should look like this:
+
+![Brazil Big Cities](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_big_cities.png)
+
+Click 'Select'. This will highlight all of the rows in the attribute table where pop_max is greater than or equal to 1,000,000. Close out of the attribute table. The big cities should be highlighted in yellow, like this:
+
+![Brazil Big Cities Yellow](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_big_cities_yellow.png)
+
+Again, let's save this as a new layer and only include the selected features. Right click the 'Brazil Cities' layer and select Save As. Give the new layer a name like 'Brazil Big Cities' and be sure to check the 'Save only selected features' box. Click OK. 
+
+Now you should have dots showing Brazilian cities with population >= one million, like this:
+
+![Brazil Big Cities](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_brazil_big_cities.png)
+
+### Label the Cities
+
+This map is rather useless without labels, so let's add text labels showing the names of these major Brazilian cities. In the Layer menu, select 'Labeling', like this:
+
+![Labeling](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_labeling.png)
+
+This will open the Layer labeling settings window. Select 'Show labels for this layer' from the drop-down menu. Click on the blue button next to the 'Label with' box and select 'name' like this:
+
+![Label Settings 1](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_label_settings1.png)
+
+Click OK and you should see city labels like this:
+
+![Labels 1](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_labels1.png)
+
+Let's give the text a white buffer to make it easier to read, and offset the labels a bit so they are not overlapping with the points. Open the Layer labeling settings window again and make the following changes:
+
+Check 'Draw text buffer':
+
+![Text Buffer](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_buffer.png)
+
+In the 'Placement' menu, select Cartographic and give it a distance of 2.0 units, like this:
+
+![Placement](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/Images/01_World_Map/01_placement.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
