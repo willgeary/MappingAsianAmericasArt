@@ -9,12 +9,27 @@ Office Hours: Thurs 1-2pm (previous email required)
 
 ## GIS Tutorial Schedule
 
-### Week 1: Creating a Basic World Map
-January 23
+### Week 1 (1/23): Creating a Basic World Map
 
 
-### Week 2: Mapping the Population Density of Brazil
-January 30
+### Week 2 (1/30): Mapping the Population Density of Brazil
+
+
+
+Other ideas:
+  1) Map of every museum in NYC color coded by category
+ 
+  2) Geocoding / creating museum data set
+
+  3) Joining Tables and Census Data
+
+  4) Working with Projections
+
+  5) Georeferencing
+
+  6) Creating Webmaps P1
+
+  7) Creating Webmaps P2
 
 
 ### Week 3:
