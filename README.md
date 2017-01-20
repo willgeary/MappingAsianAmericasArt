@@ -32,9 +32,6 @@ Other ideas:
   7) Creating Webmaps P2
 
 
-### Week 3:
-February 6
-
 
 ### Week 4:
 February 13
@@ -68,20 +65,16 @@ March 27
 April 3
 
 
-### Week 12:
-April 10
-
-
 ### Week 13:
 April 17
 
 
-### Week 14: Lab work on final projects ??
-April 24
+### Week 14:
+April 24: Studio day
 
 
-### Week 15: ??
-May 1 - do we have class this day??
+### Week 15:
+May 1: Presentation
 
 
 
