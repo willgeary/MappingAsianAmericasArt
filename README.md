@@ -1,5 +1,5 @@
 # Mapping Asian / Americas Art
-This repository includes the GIS tutorials for the Spring 2017 ***Mapping Asian / Americas Art*** course at Columbia University.
+This repository includes the GIS (Geographic Information Systems) tutorials for the Spring 2017 ***Mapping Asian / Americas Art*** course at Columbia University.
 
 Professor:  Ana Paulina Lee (apl2147)
 Office Hours: Wed 12-1pm
@@ -7,7 +7,7 @@ Office Hours: Wed 12-1pm
 Teaching Assistant: Will Geary (wcg2111)
 Office Hours: Thurs 1-2pm (previous email required)
 
-## GIS Tutorial Schedule
+## Workshop Schedule
 
 ### Week 1 (1/23): 
 Creating a Basic World Map
