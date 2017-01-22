@@ -15,48 +15,44 @@ Office Hours: Thurs 1-2pm (previous email required)
 ### Week 2 (1/30): Mapping the Population Density of Brazil
 
 
-
-Other ideas:
-  1) Map of every museum in NYC color coded by category
- 
-  2) Geocoding / creating museum data set
-
-  3) Joining Tables and Census Data
-
-  4) Working with Projections
-
-  5) Georeferencing
-
-  6) Creating Webmaps P1
-
-  7) Creating Webmaps P2
-
-
 ### Week 3 (2/6): Archive Visit to Museum of Chinese in America (MOCA). No Tutorial.
+
 
 ### Week 4 (2/13): Points on a map: Mapping every museum in NYC
 
+
 ### Week 5 (2/20): Geocoding: Creating your own geographic dataset 
+
 
 ### Week 6 (2/27): Georeferencing
 
+
 ### Week 7 (3/6): Webmapping with Carto
+
 
 ### Week 8 (3/13): Spring Break: No class.
 
+
 ### Week 9 (3/20): TBD
+
 
 ### Week 10 (3/27): TBD
 
+
 ### Week 11 (4/3): TBD 
+
 
 ### Week 12 (4/10): Master class with Tatsu Aoki and Lenora Lee. No tutorial.
 
+
 ### Week 13 (4/17): TBD
+
 
 ### Week 14 (4/24): Mapping studio
 
-### Week 15 (5/1):
+
+### Week 15 (5/1): Final Project Presentations
+
 
 ## References
 ### Books
