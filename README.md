@@ -9,49 +9,64 @@ Office Hours: Thurs 1-2pm (previous email required)
 
 ## GIS Tutorial Schedule
 
-### Week 1 (1/23): Creating a Basic World Map
+### Week 1 (1/23): 
+Creating a Basic World Map
 
 
-### Week 2 (1/30): Mapping the Population Density of Brazil
+### Week 2 (1/30): 
+Mapping the Population Density of Brazil
 
 
-### Week 3 (2/6): Archive Visit to Museum of Chinese in America (MOCA). No Tutorial.
+### Week 3 (2/6): 
+Archive Visit to Museum of Chinese in America (MOCA). No Tutorial.
 
 
-### Week 4 (2/13): Points on a map: Mapping every museum in NYC
+### Week 4 (2/13): 
+Points on a map: Mapping every museum in NYC
 
 
-### Week 5 (2/20): Geocoding: Creating your own geographic dataset 
+### Week 5 (2/20): 
+Geocoding: Creating your own geographic dataset 
 
 
-### Week 6 (2/27): Georeferencing
+### Week 6 (2/27): 
+Georeferencing
 
 
-### Week 7 (3/6): Webmapping with Carto
+### Week 7 (3/6): 
+Webmapping with Carto
 
 
-### Week 8 (3/13): Spring Break: No class.
+### Week 8 (3/13): 
+Spring Break: No class.
 
 
-### Week 9 (3/20): TBD
+### Week 9 (3/20): 
+TBD
 
 
-### Week 10 (3/27): TBD
+### Week 10 (3/27): 
+TBD
 
 
-### Week 11 (4/3): TBD 
+### Week 11 (4/3): 
+TBD 
 
 
-### Week 12 (4/10): Master class with Tatsu Aoki and Lenora Lee. No tutorial.
+### Week 12 (4/10): 
+Master class with Tatsu Aoki and Lenora Lee. No tutorial.
 
 
-### Week 13 (4/17): TBD
+### Week 13 (4/17): 
+TBD
 
 
-### Week 14 (4/24): Mapping studio
+### Week 14 (4/24): 
+Mapping studio
 
 
-### Week 15 (5/1): Final Project Presentations
+### Week 15 (5/1): 
+Final Project Presentations
 
 
 ## References
