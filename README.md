@@ -10,7 +10,7 @@ Office Hours: Thurs 1-2pm (previous email required)
 ## Workshop Schedule
 
 ### Week 1 (1/23): 
-Creating a Basic World Map
+Creating a Basic World Map. [Link](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/01_World_Map.md).
 
 
 ### Week 2 (1/30): 
