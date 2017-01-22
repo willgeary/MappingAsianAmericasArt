@@ -10,7 +10,8 @@ Office Hours: Thurs 1-2pm (previous email required)
 ## Workshop Schedule
 
 ### Week 1 (1/23): 
-Creating a Basic World Map. [Link](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/01_World_Map.md).
+Presentation: [Introduction to Mapping and GIS Concepts](https://github.com/juanfrans-courses/mapping_arch_hum/blob/master/Fall_2016/Notes_and_Presentations/01_Intro_to_Mapping.pdf)
+Tutorial: [Creating a Basic World Map](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/01_World_Map.md)
 
 
 ### Week 2 (1/30): 
