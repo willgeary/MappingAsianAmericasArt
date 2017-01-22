@@ -32,51 +32,31 @@ Other ideas:
   7) Creating Webmaps P2
 
 
+### Week 3 (2/6): Archive Visit to Museum of Chinese in America (MOCA). No Tutorial.
 
-### Week 4:
-February 13
+### Week 4 (2/13): Points on a map: Mapping every museum in NYC
 
+### Week 5 (2/20): Geocoding: Creating your own geographic dataset 
 
-### Week 5: 
-February 20
+### Week 6 (2/27): Georeferencing
 
+### Week 7 (3/6): Webmapping with Carto
 
-### Week 6: 
-February 27
+### Week 8 (3/13): Spring Break: No class.
 
+### Week 9 (3/20): TBD
 
-### Week 7: 
-March 6
+### Week 10 (3/27): TBD
 
+### Week 11 (4/3): TBD 
 
-### Week 8: Spring Recess
-No class
+### Week 12 (4/10): Master class with Tatsu Aoki and Lenora Lee. No tutorial.
 
+### Week 13 (4/17): TBD
 
-### Week 9:
-March 20
+### Week 14 (4/24): Mapping studio
 
-
-### Week 10:
-March 27
-
-
-### Week 11: 
-April 3
-
-
-### Week 13:
-April 17
-
-
-### Week 14:
-April 24: Studio day
-
-
-### Week 15:
-May 1: Presentation
-
-
+### Week 15 (5/1):
 
 ## References
 ### Books
