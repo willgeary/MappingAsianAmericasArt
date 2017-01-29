@@ -12,11 +12,11 @@ Office Hours: Thurs 1-2pm (previous email required)
 ### Week 1 (1/23): 
 Presentation: [Introduction to Mapping and GIS Concepts](https://github.com/juanfrans-courses/mapping_arch_hum/blob/master/Fall_2016/Notes_and_Presentations/01_Intro_to_Mapping.pdf)
 
-Tutorial: [Creating a Basic World Map](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/01_World_Map.md)
+Tutorial 1: [Creating a Basic World Map](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/01_World_Map.md)
 
 
 ### Week 2 (1/30): 
-Mapping the Population Density of Brazil
+Tutorial 2: [Mapping the Women's March](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/02_Mapping_Womens_March.md)
 
 
 ### Week 3 (2/6): 
@@ -28,8 +28,7 @@ Points on a map: Mapping every museum in NYC
 
 
 ### Week 5 (2/20): 
-Geocoding: Creating your own geographic dataset 
-
+Mapping the Population Density of Brazil
 
 ### Week 6 (2/27): 
 Georeferencing
