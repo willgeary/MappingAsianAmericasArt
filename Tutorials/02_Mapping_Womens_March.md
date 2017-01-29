@@ -32,4 +32,13 @@ Right off the bat, we can visualize this information in Google Sheets. Select th
 ![InsertMap]
 (https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/InsertMap.png)
 
+This will bring up the Chart Editor window. Select `Chart types`, scroll down to the very bottom and select `Geo chart with markers` like this:
+
+![GeoChart]
+(https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/geochart.png)
+
+Click `Insert`.
+
+
+
 
