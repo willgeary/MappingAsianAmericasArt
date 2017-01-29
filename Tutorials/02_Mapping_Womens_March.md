@@ -54,6 +54,30 @@ QGIS **needs latitude/longitude coordinates to plot points**. We only have city 
 
 We need to convert place names (that are understood by humans) into lat/lon coordinates (that are understood by computers). This process is known as **Geocoding**, and it comes up very often in cartography. Luckily, it is quite easy!
 
+There are many tools we could use to geocode these cities. We could use a service like [Geocod.io](https://geocod.io/), we could query Google Maps API (free, but limited to 2,500 requests per day), or we could write a custom Google Script to create geocoding functionality directly within Google Sheets.
+
+Here, we'll take the latter approach and create a geocoding function directly within Google Sheets.
+
+You may find a separate tutorial on geocoding in Google Sheets [here](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/02_Womens_March_Geocoding.md). Follow all of the steps here before continuing.
+
+---
+
+Now that we have our geocoding function in Google Sheets, let's go ahead and geocode these cities into lat/lon coordinates.
+
+Insert two empty columns to the right of the City column. Select all of the cities ***and*** the two columns to the right, like below. This will indicate to the geocode function where we want the lat/lon coordinates to go.
+
+![GoogleMap]
+(https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/selectColumns.png)
+
+With these cells selected, select `Geocode` and click `Geocode Selected Cells (Address to Lat, Long)`. 
+
+Magic!
+![GoogleMap]
+(https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/geocodeGIF.gif)
+
+
+
+
 
 
 
