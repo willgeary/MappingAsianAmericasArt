@@ -39,6 +39,25 @@ This will bring up the Chart Editor window. Select `Chart types`, scroll down to
 
 Click `Insert`.
 
+And a bubble map will automatically appear! You can adjust the zoom level and colors in the `Advanced edit` menu to make something like this:
+
+![GoogleMap]
+(https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/GoogleMap.png)
+
+The Google Sheets map is convenient and looks nice, but it's quite limited. Let's create the map in QGIS.
+
+### Geocoding
+
+But wait! There's a problem.
+
+QGIS **needs latitude/longitude coordinates to plot points**. We only have city names. 
+
+We need to convert place names (that are understood by humans) into lat/lon coordinates (that are understood by computers). This process is known as **Geocoding**, and it comes up very often in cartography. Luckily, it is quite easy!
+
+
+
+
+
 
 
 
