@@ -1,15 +1,28 @@
-## Tutorial 01 - Creating a Basic World Map
+## Tutorial 02 - Mapping the Women's March
 
 *Tutorial created by Will Geary (wcg2111@columbia.edu) for the Spring 2017 [Mapping for Asian/Americas Art](https://github.com/willgeary/MappingAsianAmericasArt) course at Columbia University*
 
-This tutorial will describe the necessary steps to create and style a basic world map and export it as a PDF file in QGIS. If you haven't downloaded QGIS, you can find it [here](https://www.qgis.org/en/site/forusers/download.html).
+This tutorial will walk through the process of using publicly available data to make a [bubble map](http://www.datavizcatalogue.com/methods/bubble_map.html) in QGIS. If you haven't downloaded QGIS, you can find it [here](https://www.qgis.org/en/site/forusers/download.html).
+
+### Background
+Much ado has been about the size of attendance of the women's march in Washington, D.C. and elsewhere. Crowd scientists have released estimates of the size of the march in Washington, ranging from 390,000 to 490,000 people. 
+
+![Crowd Science](https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/CrowdScience.jpg)
+
+We will use publicly available data to create a map visualizing the sizes of women's marches in the U.S., similar to the below map from Vox:
+
+![Women's March](https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/WomensMarchMap.jpg)
 
 ### Datasets
-To create this map, we will be using data from [Natural Earth](http://www.naturalearthdata.com/downloads/), a free, public domain map dataset. Download the following datasets:
-* [Large Scale Data - Cultural Vectors](http://www.naturalearthdata.com/downloads/10m-cultural-vectors/). Click 'Download all 10m cultural themes'.
-* [Large Scale Data - Physical Vectors](http://www.naturalearthdata.com/downloads/10m-physical-vectors/). Click 'Download all 10m physical themes'.
+To create the dataset for this map, we will scrape data from [this article](http://fivethirtyeight.com/features/the-long-march-ahead-for-democrats/). Scroll down until you see this table:
 
-This download may take up to 30 minutes, but it is worth it!
+
+
+
+
+
+
+
 
 ### Add the Layers
 First, you need to open QGIS and add the layers that you want to map.
