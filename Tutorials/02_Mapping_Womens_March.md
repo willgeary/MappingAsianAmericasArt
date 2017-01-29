@@ -107,7 +107,7 @@ Be sure that `Point coordinates` is checked and `X field` is Longitude and `Y fi
 
 
 
-
+ 
 
 
 
