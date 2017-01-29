@@ -108,6 +108,48 @@ Be sure that `Point coordinates` is checked and `X field` is Longitude and `Y fi
 ![Points]
 (http://i.imgur.com/N5TxRYF.png)
 
+Click `OK` and the `Coordinate Reference System Selector` window will pop up. It will be set on the default WGS 84 projection, which we won't change. Click `OK` again.
+
+Your map should now show points for all of the cities in our dataset, like this:
+
+![Map1](http://i.imgur.com/JMZRTed.png)
+
+### Formatting the points
+
+We're almost there! Now we just want to format the points and adjust their size based on estimated crowd size.
+
+Double click on the Women's March layer and select the `Style` tab. 
+
+Next to the `Size` field there is a drop-down menu. Click it and select `Size Assitant...`, like this:
+
+![Size Assistant](http://i.imgur.com/yDs21Bq.png)
+
+Select `ESTIMATED CROWD` from the drop down menu and input the following values (feel free to adjust these and see how it changes the bubble size):
+
+![Menu](http://i.imgur.com/LfuGo6A.png)
+
+Click `OK`. Adjust the color as you wish -- I chose to make mine purple -- and select 20% Transparency so that overlapping dots will all be seen. Click `OK`.
+
+Now you will have the bubble map of the largest U.S. women's marches!
+
+![FinalMap](http://i.imgur.com/RSPkITq.png)
+
+### Discussion
+
+How could we make this map better?
+
+
+
+
+
+
+
+
+Will Geary
+
+wcg2111@columbia.edu
+
+
 
 
 
