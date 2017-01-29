@@ -71,9 +71,46 @@ Insert two empty columns to the right of the City column. Select all of the citi
 
 With these cells selected, select `Geocode` and click `Geocode Selected Cells (Address to Lat, Long)`. 
 
-Magic!
-![GoogleMap]
+Magic!! 
+
+![Magic]
 (https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/geocodeGIF.gif)
+
+A few final data processing steps:
+* Label column B `Latitude` and column C `Longitude` (this will enable QGIS to automatically recognize them)
+* Adjust the formatting of the lat/lon coordinates so all decimals are shown
+* Adjust the formatting of the Estimated Crowd numbers so there are **no separating commas** by selecting that column and clicking `Format` -> `Number` -> `Plain text` (sometimes these commas trip up QGIS).
+
+And we're ready! Download this file as a csv.
+
+### Mapping points in QGIS
+
+First, load in the following layers to QGIS:
+* ne_10m_ocean
+* ne_10m_land
+* ne_10m_lakes
+* ne_10m_admin_1_states_provinces_lakes_shp
+
+Like this:
+
+![baseLayer]
+(https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/baseLayers.png)
+
+Now, let's load in the csv containing our data. Select `Layer` -> `Add Layer` -> `Add Delimited Text Layer...`, like this:
+
+![textLayer]
+(https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/textLayer.png)
+
+Find the Women's March csv file and click `Open`.
+
+Be sure that `Point coordinates` is checked and `X field` is Longitude and `Y field` is Latitude. QGIS will often find these columns correctly if you label them correctly -- but sometimes it doesn't, so you may need to manually tell it to read in the Latitude and Longitude columns. Like this:
+
+
+
+
+
+
+
 
 
 
