@@ -94,19 +94,21 @@ First, load in the following layers to QGIS:
 Like this:
 
 ![baseLayer]
-(https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/baseLayers.png)
-
-![baseLayer]
-(https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/baseLayers.png)
+(http://i.imgur.com/WDLTC6a.png)
 
 Now, let's load in the csv containing our data. Select `Layer` -> `Add Layer` -> `Add Delimited Text Layer...`, like this:
 
 ![textLayer]
-(https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/textLayer.png)
+(http://i.imgur.com/4YHel2E.png)
 
 Find the Women's March csv file and click `Open`.
 
 Be sure that `Point coordinates` is checked and `X field` is Longitude and `Y field` is Latitude. QGIS will often find these columns correctly if you label them correctly -- but sometimes it doesn't, so you may need to manually tell it to read in the Latitude and Longitude columns. Like this:
+
+![Points]
+(http://i.imgur.com/N5TxRYF.png)
+
+
 
 
 
