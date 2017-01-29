@@ -96,6 +96,9 @@ Like this:
 ![baseLayer]
 (https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/baseLayers.png)
 
+![baseLayer]
+(https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/02_Mapping_Womens_March/baseLayers.png)
+
 Now, let's load in the csv containing our data. Select `Layer` -> `Add Layer` -> `Add Delimited Text Layer...`, like this:
 
 ![textLayer]
