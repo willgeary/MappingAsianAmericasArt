@@ -24,18 +24,21 @@ Archive Visit to Museum of Chinese in America (MOCA). No Tutorial.
 
 
 ### Week 4 (2/13): 
-Points on a map: Mapping every museum in NYC
+Discuss digital humanities tools and brainstorm project ideas.
 
 
 ### Week 5 (2/20): 
-Mapping the Population Density of Brazil
+Tutorial: Create a timeline map with [TimeMapper](http://timemapper.okfnlabs.org/). Other interesting tools include [TimelineJS](https://timeline.knightlab.com/), [StoryMap](https://storymap.knightlab.com/), [GigaPixel](https://storymap.knightlab.com/gigapixel/), [Juxtapose](https://juxtapose.knightlab.com/).
+
 
 ### Week 6 (2/27): 
-Georeferencing
+Tutorial: [Intro to web-mapping with Carto](https://github.com/willgeary/MappingAsianAmericasArt/blob/master/Tutorials/03_Webmapping_Carto.md).
+
+Homework: Research your artist and enter 10 major biographical events into the shared [Google Sheet](https://docs.google.com/spreadsheets/d/1QjO5knqBzJiCX3eCWrEsP6ZwbH-4YmL6yzUGC_Ioybk/edit#gid=1340677890).
 
 
 ### Week 7 (3/6): 
-Webmapping with Carto
+Webmapping with Carto (cont'd?)
 
 
 ### Week 8 (3/13): 
