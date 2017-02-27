@@ -14,7 +14,7 @@ We will create a map like this:
 
 ### Data
 
-We will use this data set: (ACLED Realtime Data - Processed)[https://github.com/willgeary/DRCdashboard/blob/master/data/ACLED-All-Africa-Clean.csv]. Check it out and see what type of information it contains.
+We will use this data set: [ACLED Realtime Data - Processed](https://github.com/willgeary/DRCdashboard/blob/master/data/ACLED-All-Africa-Clean.csv). Check it out and see what type of information it contains.
 
 Download the data to csv by clicking here: https://www.dropbox.com/s/nfogb2zqr0qvieh/ACLED-All-Africa-Clean.csv?dl=0
 
