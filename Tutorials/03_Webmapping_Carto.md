@@ -66,7 +66,60 @@ And even animated maps like this:
 ![Carto6](https://raw.githubusercontent.com/willgeary/MappingAsianAmericasArt/master/Tutorials/Images/CongoConflictMap.gif)
 
 
-For now we will stick with the dot map.
+For now we will stick with the dot map, so click back to that.
+
+
+### Set dot size to represent fatalities
+
+Make the dot size dependent on fatality number by clicking here:
+
+![Carto7](http://i.imgur.com/tMOwLmj.png)
+
+Change the bucket type from 'Quantiles' to 'Jenks'. Change the Min to 10 and Max to 30.
+
+
+### Set dot color to represent event type
+
+Make the dot color represent event type by clicking here:
+
+![Carto8](http://i.imgur.com/ebsXEfs.png)
+
+
+### Set pop-up fields
+
+Click 'Pop-up' tab to set click and hover rules. 
+
+I set my click and hover rules to this:
+
+![Carto9](http://i.imgur.com/aMi1ysS.png)
+
+
+### Add widgets
+
+Create a widget to count events by event type, like this:
+
+![Carto10](http://i.imgur.com/SZCTQGJ.png)
+
+Create a widget to count fatalities by city, like this:
+
+![Carto11](http://i.imgur.com/3vj6w0t.png)
+
+
+### Publish map
+
+Click 'Share' and 'Publish' to publish your map. You now have an interactive web-map! You can copy the link to share your map via URL, or grab the embed code to embed the map on your website.
+
+![Carto12](http://i.imgur.com/BUUZ7JE.png)
+
+
+### Final map
+
+Final map available here: https://testaccountwg.carto.com/builder/758af006-fd14-11e6-b884-0e3ebc282e83/embed
+
+![Final](http://i.imgur.com/vx1Pf3a.png)
+
+
+
 
 
 
