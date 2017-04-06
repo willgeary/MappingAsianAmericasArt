@@ -87,6 +87,7 @@ htmlwidgets::saveWidget(v, "visnetwork.html")
 
 Here is the live widget in html:
 
+https://willgeary.github.io/NetworkVisualization/
 
 
 
