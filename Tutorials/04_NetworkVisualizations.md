@@ -16,6 +16,8 @@ Consider the below diagram, which visualizes relationships between twitter accou
 Network visualizations can be beautiful and complex... 
 
 ![Network2](http://i.imgur.com/r7K3Ft6.png)
+
+
 ![Network3](http://i.imgur.com/ikPaOSt.jpg)
 
 ... but they don't have to be complicated to be interesting or useful!
