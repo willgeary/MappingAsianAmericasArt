@@ -32,10 +32,10 @@ We will create our own small dataset for this tutorial.
 To visualize a network, you will need two separate spreadsheets. The first will contain a list of nodes, and the second will contain a list of edges.
 
 **Dataset 1: nodes.csv**
-[Nodes](http://i.imgur.com/58bjnGy.png)
+![Nodes](http://i.imgur.com/58bjnGy.png)
 
 **Dataset 2: edges.csv**
-[Edges](http://i.imgur.com/NuoxbDT.png)
+![Edges](http://i.imgur.com/NuoxbDT.png)
 
 You may download these datasets here:
 
