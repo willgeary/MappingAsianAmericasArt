@@ -47,10 +47,11 @@ We will use the R programming language to create an interactive network visualiz
 
 The below R script will create the network visualization.
 
-`nodes <- read.csv("/Users/Will/Desktop/nodes.csv", header=T, as.is=T)`
-`edges <- read.csv("/Users/Will/Desktop/edges.csv", header=T, as.is=T)`
+```R
+nodes <- read.csv("/Users/Will/Desktop/nodes.csv", header=T, as.is=T)
+edges <- read.csv("/Users/Will/Desktop/edges.csv", header=T, as.is=T)
 
-`library(tidyr)
+library(tidyr)
 library('visNetwork') 
 
 nodes$shape <- "dot"  
@@ -72,15 +73,20 @@ v <- visNetwork(nodes, edges) %>%
              selectedBy = "label") %>%
   visLegend()
 
-v`
+v
+```
 
 ![NetworkGif](http://i.imgur.com/jmfIK2v.gif)
 
 You can easily export the network to html and embed on a website using the htmlwidgets package.
 
-`library(htmlwidgets)
-htmlwidgets::saveWidget(v, "visnetwork.html")`
+```R
+library(htmlwidgets)
+htmlwidgets::saveWidget(v, "visnetwork.html")
+```
 
-Here is the widget:
+Here is the live widget in html:
+
+
 
 
