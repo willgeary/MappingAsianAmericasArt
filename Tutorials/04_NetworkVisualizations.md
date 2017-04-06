@@ -4,7 +4,6 @@
 
 This tutorial will walk through the process of creating an interactive network visualization in R. The code is based off [this tutorial](http://kateto.net/network-visualization).
 
-
 ### Background
 
 Network diagrams can be helpful for visualizing relationships between people. Nodes may be used to represent individuals and edges (which can be directed or non-directed) may be used to visualize relationships.
@@ -16,7 +15,6 @@ Consider the below diagram, which visualizes relationships between twitter accou
 Network visualizations can be beautiful and complex... 
 
 ![Network2](http://i.imgur.com/r7K3Ft6.png)
-
 
 ![Network3](http://i.imgur.com/ikPaOSt.jpg)
 
@@ -53,4 +51,5 @@ nodes <- read.csv("/Users/Will/Desktop/nodes.csv",
 edges <- read.csv("/Users/Will/Desktop/edges.csv",
                   header=T, as.is=T)
 `
-asdf
+
+
