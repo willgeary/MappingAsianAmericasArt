@@ -40,13 +40,14 @@ To visualize a network, you will need two separate spreadsheets. The first will 
 
 You may download these datasets here:
 
+
+
 ### Visualizing in R
 
 Below is an R script that will create an interactive network visualization of this data. You can easily export the network to html and embed on a website.
 
-`
-nodes <- read.csv("/Users/Will/Desktop/nodes.csv",
-                  header=T, as.is=T)
+`nodes <- read.csv("/Users/Will/Desktop/nodes.csv",
+                  header=T, as.is=T)`
 
 edges <- read.csv("/Users/Will/Desktop/edges.csv",
                   header=T, as.is=T)
