@@ -49,8 +49,7 @@ Below is an R script that will create an interactive network visualization of th
 `nodes <- read.csv("/Users/Will/Desktop/nodes.csv",
                   header=T, as.is=T)`
 
-edges <- read.csv("/Users/Will/Desktop/edges.csv",
-                  header=T, as.is=T)
-`
+`edges <- read.csv("/Users/Will/Desktop/edges.csv",
+                  header=T, as.is=T)`
 
 
