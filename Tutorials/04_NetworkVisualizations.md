@@ -1,4 +1,4 @@
-## Tutorial 04 - Visualzing Networks
+## Tutorial 04 - Visualizing Networks
 
 *Tutorial created by Will Geary (wcg2111@columbia.edu) for the Spring 2017 [Mapping for Asian/Americas Art](https://github.com/willgeary/MappingAsianAmericasArt) course at Columbia University*
 
