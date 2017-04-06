@@ -23,6 +23,7 @@ Network visualizations can be beautiful and complex...
 ... but they don't have to be complicated to be interesting or useful!
 
 This tutorial will walk through the steps of building an interactive network visualization such as:
+
 ![NetworkGif](http://i.imgur.com/jmfIK2v.gif)
 
 ### Data
@@ -32,9 +33,11 @@ We will create our own small dataset for this tutorial.
 To visualize a network, you will need two separate spreadsheets. The first will contain a list of nodes, and the second will contain a list of edges.
 
 **Dataset 1: nodes.csv**
+
 ![Nodes](http://i.imgur.com/58bjnGy.png)
 
 **Dataset 2: edges.csv**
+
 ![Edges](http://i.imgur.com/NuoxbDT.png)
 
 You may download these datasets here:
