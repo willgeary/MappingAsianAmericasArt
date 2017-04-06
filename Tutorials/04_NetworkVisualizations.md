@@ -48,3 +48,4 @@ nodes <- read.csv("/Users/Will/Desktop/nodes.csv",
 edges <- read.csv("/Users/Will/Desktop/edges.csv",
                   header=T, as.is=T)
 `
+asdf
