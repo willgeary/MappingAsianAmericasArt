@@ -38,18 +38,49 @@ To visualize a network, you will need two separate spreadsheets. The first will 
 
 ![Edges](http://i.imgur.com/NuoxbDT.png)
 
-You may download these datasets here:
-
-
+You may download these datasets below (or create your own):
+https://github.com/willgeary/MappingAsianAmericasArt/tree/master/Tutorials/Data/Networks
 
 ### Visualizing in R
 
-Below is an R script that will create an interactive network visualization of this data. You can easily export the network to html and embed on a website.
+We will use the R programming language to create an interactive network visualization of this data. Download R here: https://www.r-project.org/. Also, download RStudio here: https://www.rstudio.com/products/rstudio/download/
 
-`nodes <- read.csv("/Users/Will/Desktop/nodes.csv",
-                  header=T, as.is=T)`
+The below R script will create the network visualization.
 
-`edges <- read.csv("/Users/Will/Desktop/edges.csv",
-                  header=T, as.is=T)`
+`nodes <- read.csv("/Users/Will/Desktop/nodes.csv", header=T, as.is=T)`
+`edges <- read.csv("/Users/Will/Desktop/edges.csv", header=T, as.is=T)`
+
+`library(tidyr)
+library('visNetwork') 
+
+nodes$shape <- "dot"  
+nodes$shadow <- FALSE # Nodes will drop shadow
+nodes$label <- nodes$name # Node label
+nodes$borderWidth <- 2 # Node border width
+
+nodes$color.border <- "black"
+nodes$color.highlight.background <- "orange"
+nodes$color.highlight.border <- "darkred"
+
+edges$color <- "gray"    # line color  
+edges$arrows <- "middle" # arrows: 'from', 'to', or 'middle'
+edges$smooth <- TRUE    # should the edges be curved?
+edges$shadow <- FALSE    # edge shadow
+
+v <- visNetwork(nodes, edges) %>%
+  visOptions(highlightNearest = TRUE, 
+             selectedBy = "label") %>%
+  visLegend()
+
+v`
+
+![NetworkGif](http://i.imgur.com/jmfIK2v.gif)
+
+You can easily export the network to html and embed on a website using the htmlwidgets package.
+
+`library(htmlwidgets)
+htmlwidgets::saveWidget(v, "visnetwork.html")`
+
+Here is the widget:
 
 
